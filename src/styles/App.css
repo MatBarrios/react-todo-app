@@ -1,0 +1,97 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #212529;
+}
+
+.todoCounter {
+    color: #ffb703 ;
+    margin: 3rem auto;
+    width: fit-content;
+    padding: 0 0.5rem 0.2rem;
+    border-radius: 3px;
+    border: 2px solid snow;
+}
+
+.todoSearch-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.todoSearch {
+    text-align: center;
+    font-size: 18px;
+    width: 30%;
+    height: 2rem;
+    border: 2px solid snow;
+    border-radius: 8px;
+    min-width: 15rem;
+    max-width: 21rem;
+}
+
+.todoSearch:hover{
+    box-shadow: inset;
+}
+
+.todoList-cont{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+    max-width: 25rem;
+    border-radius: 1rem;
+    padding: 1rem 1rem 2rem;
+}
+
+.icon-deleted{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon-deleted:hover{
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.todoItem{
+    background-color: snow;
+    margin: 5px 0.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.icon-check{
+    cursor: pointer;
+}
+
+.icon-check-active{
+    color: rgb(78, 204, 46);
+    font-size: larger;
+    cursor: pointer;
+}
+
+.todoItem-completed {
+    text-decoration: line-through;
+}
+
+.new-todo-btn-cont{
+    text-align: center;
+}
+
+.new-todo-btn{
+    padding: 0.6rem 1.2rem;
+    border-color: rgb(181, 206, 214);
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: rgb(95, 183, 212);
+    position: relative;
+    bottom: 4rem;
+    z-index: 1;
+
+}
+
+
